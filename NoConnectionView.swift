@@ -49,7 +49,7 @@ struct NoConnectionView: View {
     var body: some View {
         ZStack {
             VStack {
-                Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+                Text("Internet connection detection")
             }
         }.frame(maxHeight: .infinity).frame(maxWidth: .infinity)
             .onAppear {
